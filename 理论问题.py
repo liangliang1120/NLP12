@@ -3,6 +3,13 @@
 2.回答以下理论问题
 
 1. 请写一下TF-IDF的计算公式
+   TF:term frequency
+      tf(t,d)=count(t,d)
+      tf(t,d)=log10(count(t,d)+1)
+   IDF:inverse document frequency
+      idf(t)=log10(N/df(t))
+   w(t,d)=tf(t,d)*idf(t)
+    
 
 2. LDA算法的基本假设是什么？
 
